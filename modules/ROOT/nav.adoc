@@ -1,7 +1,7 @@
 * Introduction
 ** xref:general-information.adoc[Overview]
 *** Platform
-*** RMS
+*** xref:RMS.adoc[RMS]
 *** Roles
 *** Licenses & Tariffs
 *** SDK

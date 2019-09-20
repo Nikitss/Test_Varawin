@@ -1,0 +1,170 @@
+= Varwin RMS App
+
+
+https://docs.google.com/document/d/1qUOCfSM6VqKuQ4G0bUbm70xKtfEEc-wx8Ij9mdMstNE/edit#[Переключить на русский]
+
+Contents
+App modes
+Edit mode
+Editing in VR
+Editing without VR: Desktop Editor
+Creating the project scenario
+Code editing
+Preview mode
+View mode
+Library
+Project structures
+Scene templates and objects
+Versioning of scene templates and objects
+Tags
+Files for export/import
+End product
+Varwin app is the environment for creating and editing VR projects.  +
+Varwin app is installed on computers of everyone participating in a project.
+
+== App modes
+
+=== Edit mode
+
+==== Editing in VR
+
+
+* Edit mode in VR is used to spawn objects on the scene
+* In Edit Mode, physical laws do not affect objects. They are applied in Preview and View modes.
+==== Editing without VR: Desktop Editor
+
+
+
+Use your mouse and keyboard to edit VR scenes. 
+
+*Capabilities***:**
+
+* place objects on the scene
+* move objects, set precise coordinates (choose the exact location with the help of coordinate axes)
+* rotate objects along the chosen axis, set precise parameters
+* scale objects along the chosen axis, set precise parameters
+* search objects within the list
+* delete objects
+* Shortcuts:
+** Grab: Q,
+** Place: W,
+** Rotate: E
+** Scale: R 
+** Focus on the object: F
+** Clone objects: Ctrl+C, Ctrl+V 
+* Orthographic projection of the scene available
+* Go to VR with one button
+==== Creating the project scenario 
+
+Project scenario and logic are created in Blockly visual editor. No programming skills are required. 
+
+
+_Working with__ Blockly:_ https://drive.google.com/open?id=1J6C6y2byfLWf3ojLXNg2hGarLVvGczTvG4e_aG42Hi4[Manual] 
+
+* All necessary logic blocks are provided 
+* Users can create and name necessary variables
+
+_Pre-provided logic blocks	Variables creation option; custom variables _
+
+==== Code editing
+
+If necessary, the user can edit the code of the project.
+
+=== Preview mode
+
+* You can preview your project in VR or in Desktop Editor. 
+* Physical laws are applied to objects*. 
+* The objects engage in the preset logic (e.g., a display shows specific text when specific conditions are met.) 
+
+
+* Those objects which have been assigned relevant parameter when created
+
+=== View mode
+
+View mode switches on when a user runs the ready app. Also, this mode can be entered by clicking View In VR button. 
+
+View mode can be switched on if the project has at least one configuration.
+
+_Learn more:_ https://docs.google.com/document/d/1ji8IlKHhGR5aJDMzmPGu1I-DVEx0i7xq8PQAft2oDqo/edit#heading=h.32bbtxuwhe4q[App launch configurations and view]
+
+* Physical laws are applied to all objects.
+* View mode doesn’t allow to switch to Edit mode, nor to make any editing. 
+* Interaction with configuration (ready-made virtual world) following a preset script.
+
+See also: https://docs.google.com/document/d/1ji8IlKHhGR5aJDMzmPGu1I-DVEx0i7xq8PQAft2oDqo/edit#heading=h.tyjcwt[VR menu functions]
+
+== Library
+
+Varwin app provides the user with a library storing the following:
+
+* project settings,
+* project metadata,
+* scene templates to create scenarios in,
+* objects to set in the scene templates.
+Varwin allows users to create new objects and scene templates and upload them to the library. This will require Varwin SDK - development tools tailored for Varwin platform and provided in the packaged solution. +
+_Learn more___:__ https://docs.google.com/document/d/1p0nfwNZRvvWYq2aG9HXmGROw-v8HBkZ5X2kDeyAKwp4[Varwin SDK]
+
+=== Project structures
+
+
+_Projects metadata in the library_
+
+Project metadata is a blank VR project for further editing. It contains IDs of scene templates and objects, coordinates of objects’ placement, the logic for Blockly. This file is editable.
+
+=== Scene templates and objects
+
+Scene templates and objects are stored in the relevant sections of the Library. Both their names and icons are displayed in the list. 
+
+_Scene templates in the library_
+
+
+_Objects in the library_
+
+_Object menu in VR_
+
+==== Versioning of scene templates and objects
+
+An object/scene template can have different versions. An RMS user can view versions of an object/scene template by clicking the Default Version button in the RMS.
+
+* The latest version of an object/scene template is set by the system as a default one. 
+
+* If a user selects another version of an object/scene template as a default one, a sign of a lock appears on the Default Version button. It means that a user default version is selected for this object/scene template. 
+ 
+
+* This choice is fixed for all the projects. 
+* If an RMS user uses a version of an object/scene template in a project and then changes the default version for this object/scene template in the library, the change won’t affect that project.
+* There can be any number of versions to choose from.
+=== Tags
+
+Tags can be assigned to objects and/or scene templates in order to simplify their finding and systematizing.
+
+_Tags in the library_
+
+* The tags assigned in the library will be displayed in VR. 
+ 
+_Tags in VR_
+
+* Tags are editable
+* For tag list in VR, click Filter. The digit icon on this button displays the number of tags applied. 
+
+_Tag list in VR_
+
+=== Files for export/import 
+
+Files containing objects, scene templates, project metadata can be imported into the system.  +
+Project metadata and ready apps can be exported as files. Scene templates and objects are not exportable.
+
+_Import of objects, scene templates, project metadata_
+
+_Export of project metadata_
+
+== End product
+
+When the project is completed, an app for the end user can be built out of it. 
+
+* The apps are exported as .exe files. They can be launched on any PC. 
+* Varwin platform installation is not needed to launch an exported app. 
+* The apps are not editable.
+* Not available for Starter edition. 
+
+_Build a ready app (not available for Starter edition)_
