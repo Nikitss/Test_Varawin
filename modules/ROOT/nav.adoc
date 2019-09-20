@@ -1,5 +1,5 @@
 * Introduction
-** xref:general-information[Overview]
+** xref:general-information.adoc[Overview]
 *** Platform
 *** RMS
 *** Roles
