@@ -1,0 +1,87 @@
+= Varwin platform: general information
+
+https://docs.google.com/document/d/1zL_8n9iWoAJXviEZnKai2iN4_ah4MppMV2UAb-m64hA/edit#heading=h.gjdgxs[Переключить на русский]
+
+Contents 
+What this is
+Components
+Varwin RMS app
+Varwin Client App
+Other elements
+Varwin SDK
+Blockly
+Benefits
+Corporate customers
+B2B
+Related documents
+== What this is
+
+Varwin platform is an environment for creating, editing and utilizing projects in virtual reality (VR). This is a fast and easy solution for creating VR projects with no programming skills. Such projects can then be managed and supported using the company’s own resources, without third party participation. +
+The packaged solution includes Varwin RMS* App, Varwin Client App (built-in VR client) and Varwin SDK. +
+*Reality Management System 
+
+== Components
+
+=== Varwin RMS app
+
+Varwin RMS app is installed on computers of everyone participating in a project. +
+The platform can work with no Internet connection if both server and app are installed on a computer. Corporate customers can install server on a separate computer which will connect with the app by intranet (corporate network) with no need for Internet.  +
+Varwin app functions in three modes: 
+
+* Edit mode
+* Preview mode
+* View mode
+All users get access to: 
+
+* Library of scene templates to set projects in, 
+* Library of objects to place inside the scene templates.
+_Learn more___:__ https://drive.google.com/open?id=1LOg1Ts-gDaG43nlDBW80sas961XDlgt1dFUqQe9Ntx8[Varwin RMS App]
+
+=== Varwin Client App
+
+The built-in VR client is a part of Varwin platform and is installed simultaneously.
+
+== Other elements
+
+=== Varwin SDK 
+
+In addition to the content provided with the libraries, Varwin users can create their own scene templates and objects. In order to do that, a Varwin user will have to: 
+
+* Install https://unity.com/[Unity] development platform,
+* Install Varwin SDK, development tool tailored for Varwin platform
+Those tools allow to create scene templates and objects for Varwin platform: 
+
+* without third party participation (experience with Unity required)
+* with the support of any Unity programmer (over 4 million programmers worldwide.)
+_Learn more___:__ https://docs.google.com/document/d/1p0nfwNZRvvWYq2aG9HXmGROw-v8HBkZ5X2kDeyAKwp4/edit#heading=h.gjdgxs[Varwin SDK]
+
+=== Blockly
+
+Built-in visual editor allowing to build scenario and logic for projects with no programmer skills. +
+_Learn more:_ https://drive.google.com/open?id=1J6C6y2byfLWf3ojLXNg2hGarLVvGczTvG4e_aG42Hi4[Working with Blockly]
+
+== Benefits
+
+=== Corporate customers
+
+* All the objects are reusable. Once created/downloaded, an object stays in the library and can be used for all the following projects. This way,
+** Project implementation speed is boosted,
+** Any ready scene template can be adjusted to desired characteristics
+_Case. In the petroleum industry there are common regulations, but due to various factors sequence of actions and other nuances can differ from one wellsite to another. Projects can be adjusted to suit different wellsites._
+
+* Content scalability: create different versions of the same project with altered parameters to suit different users - fast and easy,
+* Independence: a company IT department can manage a project and edit it without third party participation,
+* An intuitive, user-friendly solution in the format of CMS interface,
+* Consolidated, centralized platform: all the updates are applied at once and centrally. All Varwin users always launch the latest configuration.
+=== B2B
+
+* An out-of-the-box solution to provide the customers with,
+* Work effort lowering,
+* Processes acceleration: VR courses are assembled on Varwin platform approx. 3 times faster than without it.
+== Related documents
+
+https://drive.google.com/open?id=1YnVCUts-NDuexkL_8lpMPlc_u6LR5m7oym-3rylly-g[Equipment and system requirements for Varwin platform]  +
+https://drive.google.com/open?id=1LOg1Ts-gDaG43nlDBW80sas961XDlgt1dFUqQe9Ntx8[Varwin RMS App] +
+https://docs.google.com/document/d/1p0nfwNZRvvWYq2aG9HXmGROw-v8HBkZ5X2kDeyAKwp4/edit#heading=h.gjdgxs[Varwin SDK] +
+https://drive.google.com/open?id=1ZPUuc5oxc4WhBYsqIWoD070IXqvT9DzpO5ZEOGKF9Zk[Roles and functions of Varwin users] +
+https://docs.google.com/document/d/1f53J2eChxibBzgABAd0AH-8sy4MXVdnKkWTyVjlli_c/edit#[Глоссарий]
